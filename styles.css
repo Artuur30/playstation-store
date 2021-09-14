@@ -167,3 +167,21 @@ h4 {
   margin: 20px;
   cursor: pointer;
 }
+
+.menu-icon{
+  width: 25px;
+  margin-right: 15px;
+  display: none;
+}
+
+
+@media (max-width:1200px){
+  #menu-list{
+     display: block;
+  }
+
+  .menu-icon{
+    display: block;
+
+  }
+}
